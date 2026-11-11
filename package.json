@@ -6,7 +6,7 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "token-honeypot-audit-mcp": "./index.js"
+    "token-honeypot-audit-mcp": "index.js"
   },
   "scripts": {
     "start": "node index.js",
