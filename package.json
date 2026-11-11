@@ -1,0 +1,36 @@
+{
+  "name": "token-honeypot-audit-mcp",
+  "version": "1.0.0",
+  "description": "DeFi token honeypot detector, GoPlus smart contract security audit, OFAC AML compliance & Base DEX swap MCP server (Zero-config stdio & Remote HTTP).",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "token-honeypot-audit-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralf9090/token-honeypot-audit-mcp.git"
+  },
+  "homepage": "https://agent-kiosk.vercel.app/buy",
+  "bugs": {
+    "url": "https://github.com/ralf9090/token-honeypot-audit-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "defi",
+    "honeypot-detector",
+    "base",
+    "smart-contract-security",
+    "aml",
+    "x402"
+  ]
+}
